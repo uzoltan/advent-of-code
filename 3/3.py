@@ -1,7 +1,6 @@
 import copy
 import os
 import sys
-from pprint import pprint
 from typing import List
 
 with open(os.path.join(sys.path[0], 'input.txt')) as file:
@@ -69,6 +68,3 @@ for i in range(len(binary_strings[0])):
         co2_list = [num for num in co2_list if int(num[i]) == co2_common_bit]
 
 print(int(oxygen_list[0], 2) * int(co2_list[0], 2))
-
-
-
