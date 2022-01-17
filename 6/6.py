@@ -2,7 +2,7 @@ import os
 import sys
 
 with open(os.path.join(sys.path[0], 'input.txt')) as file:
-    string = file.readline() #asdsadsadsa
+    string = file.readline() #asdsadsadsasadsadsadsadsadsadsa
     fish_timers = [int(x) for x in string.split(',')]
 
 # for days in range(0, 80):
